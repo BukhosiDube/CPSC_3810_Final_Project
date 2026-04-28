@@ -40,6 +40,16 @@ def load_data(folder_path):
     data_frame["text"] = data_frame["text"].astype(str)
     data_frame["is_offensive"] = data_frame["is_offensive"].astype(int)
 
+    data_frame = (
+        data_frame
+        .groupby("is_offensive", group_keys=False)
+        .apply(lambda x: x.sample(n=min(len(x), 5000), random_state=42))
+        .reset_index(drop=True)
+    )
+
+    print("Sampled class counts:")
+    print(data_frame["is_offensive"].value_counts())
+
     return data_frame["text"].tolist(), data_frame["is_offensive"].tolist()
 
 
