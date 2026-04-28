@@ -17,7 +17,7 @@ from sklearn.metrics import (
 )
 
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-DATA_PATH = "data/relevance_dataset_cpsc3810.csv"
+DATA_PATH = "relevance_dataset_cpsc3810.csv"
 
 MODEL_DIR = "models"
 MODEL_PATH = os.path.join(MODEL_DIR, "relevance_classifier.pkl")
