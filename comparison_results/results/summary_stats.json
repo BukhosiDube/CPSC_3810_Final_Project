@@ -1,0 +1,45 @@
+{
+  "model1": "LogReg",
+  "model2": "GPT",
+  "stats": {
+    "is_inappropriate": {
+      "total_posts": 218,
+      "agreements": 218,
+      "disagreements": 0,
+      "agreement_pct": 100.0,
+      "LogReg_positive_rate_%": 0.0,
+      "GPT_positive_rate_%": 0.0,
+      "cohen_kappa": NaN,
+      "precision_GPT_vs_LogReg": 0.0,
+      "recall_GPT_vs_LogReg": 0.0,
+      "f1_GPT_vs_LogReg": 0.0
+    },
+    "is_relevant": {
+      "total_posts": 218,
+      "agreements": 129,
+      "disagreements": 89,
+      "agreement_pct": 59.17,
+      "LogReg_positive_rate_%": 100.0,
+      "GPT_positive_rate_%": 59.17,
+      "cohen_kappa": 0.0,
+      "precision_GPT_vs_LogReg": 1.0,
+      "recall_GPT_vs_LogReg": 0.5917,
+      "f1_GPT_vs_LogReg": 0.7435
+    },
+    "decision": {
+      "total_posts": 218,
+      "agreements": 129,
+      "disagreements": 89,
+      "agreement_pct": 59.17,
+      "all_decision_labels": [
+        "FILTER",
+        "KEEP"
+      ],
+      "LogReg_FILTER_count": 0,
+      "GPT_FILTER_count": 89,
+      "LogReg_KEEP_count": 218,
+      "GPT_KEEP_count": 129,
+      "cohen_kappa": 0.0
+    }
+  }
+}

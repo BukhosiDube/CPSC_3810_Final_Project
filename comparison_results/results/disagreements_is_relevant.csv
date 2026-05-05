@@ -1,0 +1,90 @@
+text,is_inappropriate_LogReg,is_relevant_LogReg,decision_LogReg,is_inappropriate_GPT,is_relevant_GPT,decision_GPT,disagreement_col
+What is the difference between regularization and regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement cross validation in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does cross validation work?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How does regularization work?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain cross validation?,0,1,KEEP,0,0,FILTER,is_relevant
+Why is regularization important?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,is_relevant
+How does embeddings work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does embeddings work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does embeddings work?,0,1,KEEP,0,0,FILTER,is_relevant
+How does embeddings work?,0,1,KEEP,0,0,FILTER,is_relevant

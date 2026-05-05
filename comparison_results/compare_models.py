@@ -1,3 +1,29 @@
+"""
+compare_models.py
+-----------------
+Compare two CSV files of moderation model predictions and generate
+evaluation statistics for the CPSC 3810 Self-Moderating ML project.
+
+Expected CSV format (based on your system's output):
+    text              - the post text
+    is_inappropriate  - binary flag (0 or 1)
+    is_relevant       - binary flag (0.0 or 1.0)
+    decision          - final label: KEEP, REMOVE, FLAG, etc.
+
+Usage:
+    python compare_models.py --file1 your_model.csv --file2 llm_output.csv
+    python compare_models.py --file1 your_model.csv --file2 llm_output.csv --output ./results
+    python compare_models.py --file1 your_model.csv --file2 llm_output.csv --no-plots
+
+Arguments:
+    --file1     Path to first CSV  (e.g. your logistic regression model output)
+    --file2     Path to second CSV (e.g. ChatGPT / Claude LLM output)
+    --name1     Label for model 1 in reports          (default: "Model_1")
+    --name2     Label for model 2 in reports          (default: "Model_2")
+    --output    Directory to save results             (default: ./comparison_results)
+    --no-plots  Skip generating charts
+"""
+
 import argparse
 import os
 import json
@@ -25,6 +51,7 @@ except ImportError:
     print("[WARN] scikit-learn not found — some metrics skipped. pip install scikit-learn")
 
 
+# ── Constants ──────────────────────────────────────────────────────────────────
 
 EXPECTED_COLS = ["text", "is_inappropriate", "is_relevant", "decision"]
 BINARY_COLS   = ["is_inappropriate", "is_relevant"]
@@ -33,6 +60,7 @@ TEXT_COL      = "text"
 COLORS        = ["#4C72B0", "#DD8452"]   # blue / orange
 
 
+# ── I/O helpers ────────────────────────────────────────────────────────────────
 
 def load_csv(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
@@ -41,7 +69,7 @@ def load_csv(path: str) -> pd.DataFrame:
     missing = [c for c in EXPECTED_COLS if c not in df.columns]
     if missing:
         print(f"[WARN] {path} is missing expected columns: {missing}")
-        print(f"Found columns: {df.columns.tolist()}")
+        print(f"       Found columns: {df.columns.tolist()}")
 
     for col in BINARY_COLS:
         if col in df.columns:
@@ -62,15 +90,15 @@ def ensure_dir(path: str):
     Path(path).mkdir(parents=True, exist_ok=True)
 
 
+# ── Alignment ──────────────────────────────────────────────────────────────────
 
 def align_dataframes(df1, df2, name1, name2):
     if TEXT_COL in df1.columns and TEXT_COL in df2.columns:
-        merged = pd.merge(df1, df2, on=TEXT_COL, suffixes=(f"_{name1}", f"_{name2}"), how="inner")
+        merged = pd.merge(df1, df2, on=TEXT_COL,
+                          suffixes=(f"_{name1}", f"_{name2}"), how="inner")
         n = len(merged)
-
         print(f"\n[INFO] Matched {n} posts by text "
               f"({len(df1)} in {name1}, {len(df2)} in {name2})")
-        
         if n == 0:
             print("[WARN] No matching texts — falling back to row alignment.")
             return positional_align(df1, df2, name1, name2)
@@ -83,18 +111,14 @@ def positional_align(df1, df2, name1, name2):
     if len(df1) != len(df2):
         print(f"[WARN] Files have different lengths ({len(df1)} vs {len(df2)}). "
               f"Truncating to {min_len} rows.")
-        
     df1 = df1.iloc[:min_len].reset_index(drop=True)
-
     df2 = df2.iloc[:min_len].reset_index(drop=True)
-
     df1.columns = [f"{c}_{name1}" if c != TEXT_COL else c for c in df1.columns]
     df2.columns = [f"{c}_{name2}" if c != TEXT_COL else c for c in df2.columns]
-
     return pd.concat([df1, df2], axis=1)
 
 
-
+# ── Statistics ─────────────────────────────────────────────────────────────────
 
 def binary_agreement(merged, col, name1, name2):
     c1, c2 = f"{col}_{name1}", f"{col}_{name2}"
@@ -155,6 +179,7 @@ def decision_agreement(merged, name1, name2):
     return stats
 
 
+# ── Disagreement export ────────────────────────────────────────────────────────
 
 def export_disagreements(merged, col, name1, name2, out_dir):
     c1, c2 = f"{col}_{name1}", f"{col}_{name2}"
@@ -171,7 +196,7 @@ def export_disagreements(merged, col, name1, name2, out_dir):
     print(f"  [{col}] {len(rows)} disagreements exported.")
 
 
-
+# ── Plots ──────────────────────────────────────────────────────────────────────
 
 def plot_agreement_bar(stats, col, name1, name2, out_dir):
     if not HAS_MATPLOTLIB:
@@ -282,7 +307,7 @@ def plot_positive_rates(all_stats, name1, name2, out_dir):
     print(f"  Plot saved -> {path}")
 
 
-
+# ── Summary output ─────────────────────────────────────────────────────────────
 
 def print_summary(all_stats, name1, name2):
     print(f"\n{'='*60}")
@@ -309,7 +334,7 @@ def save_summary_json(all_stats, out_dir, name1, name2):
 
 def save_summary_txt(all_stats, out_dir, name1, name2):
     path = os.path.join(out_dir, "summary_report.txt")
-    with open(path, "w") as f:
+    with open(path, "w", encoding="utf-8") as f:
         f.write(f"COMPARISON REPORT\nModel 1: {name1}\nModel 2: {name2}\n\n")
         for col, stats in all_stats.items():
             f.write(f"{'─'*60}\nColumn: {col}\n{'─'*60}\n")
@@ -350,7 +375,7 @@ def main():
 
     all_stats = {}
 
-  
+    # Binary columns
     print("\n── Binary column analysis ──────────────────────────────")
     for col in BINARY_COLS:
         stats = binary_agreement(merged, col, args.name1, args.name2)

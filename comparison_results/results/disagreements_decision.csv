@@ -1,0 +1,90 @@
+text,is_inappropriate_LogReg,is_relevant_LogReg,decision_LogReg,is_inappropriate_GPT,is_relevant_GPT,decision_GPT,disagreement_col
+What is the difference between regularization and regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,decision
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,decision
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How do we implement cross validation in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+How does cross validation work?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+Why is cross validation important?,0,1,KEEP,0,0,FILTER,decision
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER,decision
+How does regularization work?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,decision
+Why is SVMs important?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+Can you explain regularization?,0,1,KEEP,0,0,FILTER,decision
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER,decision
+Can you explain cross validation?,0,1,KEEP,0,0,FILTER,decision
+Why is regularization important?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER,decision
+How does embeddings work?,0,1,KEEP,0,0,FILTER,decision
+How does embeddings work?,0,1,KEEP,0,0,FILTER,decision
+How does embeddings work?,0,1,KEEP,0,0,FILTER,decision
+How does embeddings work?,0,1,KEEP,0,0,FILTER,decision

@@ -1,0 +1,219 @@
+text,is_inappropriate_LogReg,is_relevant_LogReg,decision_LogReg,is_inappropriate_GPT,is_relevant_GPT,decision_GPT
+How does bias variance tradeoff work?,0,1,KEEP,0,1,KEEP
+What is the difference between regularization and regularization?,0,1,KEEP,0,0,FILTER
+What is the difference between clustering and loss function?,0,1,KEEP,0,1,KEEP
+Why is neural networks important?,0,1,KEEP,0,1,KEEP
+Why is neural networks important?,0,1,KEEP,0,1,KEEP
+What is the difference between PCA and regularization?,0,1,KEEP,0,1,KEEP
+What is the difference between PCA and regularization?,0,1,KEEP,0,1,KEEP
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+How do we implement neural networks in Python?,0,1,KEEP,0,1,KEEP
+Why is PCA important?,0,1,KEEP,0,1,KEEP
+Why is PCA important?,0,1,KEEP,0,1,KEEP
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+What is the difference between PCA and neural networks?,0,1,KEEP,0,1,KEEP
+How does loss function work?,0,1,KEEP,0,1,KEEP
+How does loss function work?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+What is the difference between embeddings and bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+How does PCA work?,0,1,KEEP,0,1,KEEP
+How does PCA work?,0,1,KEEP,0,1,KEEP
+How does clustering work?,0,1,KEEP,0,1,KEEP
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain logistic regression?,0,1,KEEP,0,1,KEEP
+Can you explain logistic regression?,0,1,KEEP,0,1,KEEP
+How does loss function work?,0,1,KEEP,0,1,KEEP
+How does loss function work?,0,1,KEEP,0,1,KEEP
+Can you explain PCA?,0,1,KEEP,0,1,KEEP
+Can you explain PCA?,0,1,KEEP,0,1,KEEP
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is SVMs important?,0,1,KEEP,0,0,FILTER
+Why is SVMs important?,0,1,KEEP,0,0,FILTER
+Why is PCA important?,0,1,KEEP,0,1,KEEP
+Why is PCA important?,0,1,KEEP,0,1,KEEP
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How do we implement cross validation in Python?,0,1,KEEP,0,0,FILTER
+Can you explain bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+Can you explain bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER
+How do we implement gradient descent in Python?,0,1,KEEP,0,1,KEEP
+How do we implement gradient descent in Python?,0,1,KEEP,0,1,KEEP
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain PCA?,0,1,KEEP,0,1,KEEP
+Can you explain PCA?,0,1,KEEP,0,1,KEEP
+What is the difference between cross validation and PCA?,0,1,KEEP,0,1,KEEP
+How do we implement bias variance tradeoff in Python?,0,1,KEEP,0,1,KEEP
+What is the difference between logistic regression and overfitting?,0,1,KEEP,0,1,KEEP
+How do we implement PCA in Python?,0,1,KEEP,0,1,KEEP
+Can you explain logistic regression?,0,1,KEEP,0,1,KEEP
+Can you explain logistic regression?,0,1,KEEP,0,1,KEEP
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+How does cross validation work?,0,1,KEEP,0,0,FILTER
+Why is overfitting important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+What is the difference between loss function and bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Why is cross validation important?,0,1,KEEP,0,0,FILTER
+Can you explain loss function?,0,1,KEEP,0,1,KEEP
+Can you explain loss function?,0,1,KEEP,0,1,KEEP
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER
+How do we implement embeddings in Python?,0,1,KEEP,0,0,FILTER
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+How do we implement logistic regression in Python?,0,1,KEEP,0,1,KEEP
+How do we implement logistic regression in Python?,0,1,KEEP,0,1,KEEP
+What is the difference between PCA and regularization?,0,1,KEEP,0,1,KEEP
+What is the difference between PCA and regularization?,0,1,KEEP,0,1,KEEP
+What is the difference between gradient descent and embeddings?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+What is the difference between regularization and loss function?,0,1,KEEP,0,1,KEEP
+What is the difference between regularization and loss function?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+Why is bias variance tradeoff important?,0,1,KEEP,0,1,KEEP
+What is the difference between SVMs and loss function?,0,1,KEEP,0,1,KEEP
+Can you explain loss function?,0,1,KEEP,0,1,KEEP
+Can you explain loss function?,0,1,KEEP,0,1,KEEP
+What is the difference between clustering and cross validation?,0,1,KEEP,0,1,KEEP
+How does regularization work?,0,1,KEEP,0,0,FILTER
+What is the difference between regularization and gradient descent?,0,1,KEEP,0,1,KEEP
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+What is the difference between regularization and loss function?,0,1,KEEP,0,1,KEEP
+What is the difference between regularization and loss function?,0,1,KEEP,0,1,KEEP
+Why is SVMs important?,0,1,KEEP,0,0,FILTER
+Why is SVMs important?,0,1,KEEP,0,0,FILTER
+How do we implement gradient descent in Python?,0,1,KEEP,0,1,KEEP
+How do we implement gradient descent in Python?,0,1,KEEP,0,1,KEEP
+What is the difference between loss function and embeddings?,0,1,KEEP,0,1,KEEP
+What is the difference between neural networks and bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain regularization?,0,1,KEEP,0,0,FILTER
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+How does overfitting work?,0,1,KEEP,0,1,KEEP
+How does overfitting work?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER
+How do we implement SVMs in Python?,0,1,KEEP,0,0,FILTER
+What is the difference between loss function and cross validation?,0,1,KEEP,0,1,KEEP
+Can you explain cross validation?,0,1,KEEP,0,0,FILTER
+How do we implement overfitting in Python?,0,1,KEEP,0,1,KEEP
+How do we implement overfitting in Python?,0,1,KEEP,0,1,KEEP
+How do we implement overfitting in Python?,0,1,KEEP,0,1,KEEP
+How do we implement overfitting in Python?,0,1,KEEP,0,1,KEEP
+Why is neural networks important?,0,1,KEEP,0,1,KEEP
+Why is neural networks important?,0,1,KEEP,0,1,KEEP
+Why is regularization important?,0,1,KEEP,0,0,FILTER
+How does PCA work?,0,1,KEEP,0,1,KEEP
+How does PCA work?,0,1,KEEP,0,1,KEEP
+How do we implement logistic regression in Python?,0,1,KEEP,0,1,KEEP
+How do we implement logistic regression in Python?,0,1,KEEP,0,1,KEEP
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How do we implement regularization in Python?,0,1,KEEP,0,0,FILTER
+How does overfitting work?,0,1,KEEP,0,1,KEEP
+How does overfitting work?,0,1,KEEP,0,1,KEEP
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain SVMs?,0,1,KEEP,0,0,FILTER
+Can you explain bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+Can you explain bias variance tradeoff?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Can you explain gradient descent?,0,1,KEEP,0,1,KEEP
+Why is gradient descent important?,0,1,KEEP,0,1,KEEP
+Why is gradient descent important?,0,1,KEEP,0,1,KEEP
+How does embeddings work?,0,1,KEEP,0,0,FILTER
+How does embeddings work?,0,1,KEEP,0,0,FILTER
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+What is the difference between gradient descent and regularization?,0,1,KEEP,0,1,KEEP
+How does neural networks work?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+Can you explain neural networks?,0,1,KEEP,0,1,KEEP
+What is the difference between cross validation and gradient descent?,0,1,KEEP,0,1,KEEP
+What is the difference between logistic regression and logistic regression?,0,1,KEEP,0,1,KEEP
+How does embeddings work?,0,1,KEEP,0,0,FILTER
+How does embeddings work?,0,1,KEEP,0,0,FILTER
+What is the difference between embeddings and loss function?,0,1,KEEP,0,1,KEEP
+Why is gradient descent important?,0,1,KEEP,0,1,KEEP
+Why is gradient descent important?,0,1,KEEP,0,1,KEEP
+How do we implement clustering in Python?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+Why is logistic regression important?,0,1,KEEP,0,1,KEEP
+What is the difference between bias variance tradeoff and regularization?,0,1,KEEP,0,1,KEEP
