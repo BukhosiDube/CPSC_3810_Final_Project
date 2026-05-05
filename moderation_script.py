@@ -10,7 +10,7 @@ INAPPROPRIATE_MODEL_PATH = "models/inappropriate_classifier.pkl"
 RELEVANCE_MODEL_PATH = "models/relevance_classifier.pkl"
 
 INPUT_PATH = "data/edtech_test_dataset_large.csv"
-OUTPUT_PATH = "data/filtered_relevant_questions.csv"
+OUTPUT_PATH = "comparison_results/filtered_relevant_questions.csv"
 
 
 def preprocess(text):
