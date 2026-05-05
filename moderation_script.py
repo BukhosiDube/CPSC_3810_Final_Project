@@ -9,11 +9,10 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 INAPPROPRIATE_MODEL_PATH = "models/inappropriate_classifier.pkl"
 RELEVANCE_MODEL_PATH = "models/relevance_classifier.pkl"
 
-INPUT_PATH = "data/edtech_test.csv"
+INPUT_PATH = "data/edtech_test_dataset_large.csv"
 OUTPUT_PATH = "data/filtered_relevant_questions.csv"
 
 
-# Processes the posts 
 def preprocess(text):
     text = str(text)
     text = text.strip()
@@ -21,12 +20,13 @@ def preprocess(text):
     return text
 
 
-# Moderates text by running both models on the text and outputting a decision
 def moderate_text(text, embedder, inappropriate_model, relevance_model):
     cleaned_text = preprocess(text)
-    embedding = embedder.encode(cleaned_text)
+
+    embedding = embedder.encode([cleaned_text])
 
     is_inappropriate = inappropriate_model.predict(embedding)[0]
+
     if is_inappropriate == 1:
         return {
             "text": cleaned_text,
@@ -36,7 +36,10 @@ def moderate_text(text, embedder, inappropriate_model, relevance_model):
         }
     
     is_relevant = relevance_model.predict(embedding)[0]
-    if is_relevant == 1:
+    prob = relevance_model.predict_proba(embedding)[0][1]
+    #print(cleaned_text, prob)
+
+    if prob > 0.6:
         decision = "KEEP"
     else:
         decision = "REMOVED"
@@ -54,7 +57,7 @@ def main():
     if "text" not in data_frame.columns:
         raise ValueError("Input CSV must have text")
     
-    embedder = SentenceTransformer(EMBEDDING_MODEL_NAME)
+    embedder = SentenceTransformer(EMBEDDING_MODEL)
     inappropriate_model = joblib.load(INAPPROPRIATE_MODEL_PATH)
     relevance_model = joblib.load(RELEVANCE_MODEL_PATH)
 

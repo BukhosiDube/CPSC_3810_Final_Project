@@ -45,7 +45,7 @@ def main():
     X_train_text, X_test_text, y_train, y_test = train_test_split(
         texts,
         labels,
-        test_size=0.2,
+        test_size=0.1,
         random_state=42,
         stratify=labels,
     )
