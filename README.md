@@ -23,7 +23,8 @@ for course relevance detection.
 CPSC_3810_Final_Project/
 ├── moderation_script.py          # Main script — run this to moderate posts
 ├── train_inappropriate.py        # (Optional) retrain the inappropriate classifier
-├── train_irrelevant.py           # (Optional) retrain the relevance classifier
+├── train_irrelevant.py            # (Optional) retrain the relevance classifier
+├── requirements.txt           
 │
 ├── models/
 │   ├── inappropriate_classifier.pkl   # Pre-trained model (no retraining needed)
